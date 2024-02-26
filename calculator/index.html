@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+
+<body>
+    <div id="cal">
+        <form id="cform" id="form" >
+            <input  type="text" id="cdis"id="display" >
+            <br><br>
+            <input class="yoo" type="button" value="1" onclick="cform.cdis.value +='1'">
+            <input class="yoo" type="button" value="2" onclick="cform.cdis.value +='2'">
+            <input class="yoo" type="button" value="3" onclick="cform.cdis.value +='3'">
+            <input class="yoo" type="button" value="+" onclick="cform.cdis.value +='+'">
+            <br><br>
+            <input  class="yoo" type="button" value="4" onclick="cform.cdis.value +='4'">
+            <input  class="yoo" type="button" value="5" onclick="cform.cdis.value +='5'">
+            <input  class="yoo" type="button" value="6" onclick="cform.cdis.value +='6'">
+            <input  class="yoo" type="button" value="-" onclick="cform.cdis.value +='-'">
+            <br><br>
+            <input class="yoo" type="button" value="7" onclick="cform.cdis.value +='7'">
+            <input class="yoo" type="button" value="8" onclick="cform.cdis.value +='8'">
+            <input class="yoo" type="button" value="9" onclick="cform.cdis.value +='9'">
+            <input class="yoo" type="button" value="*" onclick="cform.cdis.value +='*'">
+            <br><br>
+            <input class="yoo" type="button" value="%" onclick="cform.cdis.value +='%'">
+            <input class="yoo" type="button" value="0" onclick="cform.cdis.value +='0'">
+            <input class="yoo" type="button" value="." onclick="cform.cdis.value +='.'">
+            <input class="yoo" type="button" value="/" onclick="cform.cdis.value +='/'">
+            <br><br>
+            <input class="a" type="button" value="clear" onclick="cform.cdis.value =' '">
+            <input class="a" type="button" value="=" onclick="cform.cdis.value =eval(cform.cdis.value)">
+        </form>
+    </div>
+</body>
+</html>
